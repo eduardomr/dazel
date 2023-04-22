@@ -10,7 +10,7 @@ class Game:
         pygame.init()
         self.screen = pygame.display.set_mode((WIDTH,HEIGTH))
         self.clock = pygame.time.Clock()
-        pygame.display.set_caption('JOGUINHO DE BOIOLA')
+        pygame.display.set_caption('Dazel')
 
         self.level = Level()
 
